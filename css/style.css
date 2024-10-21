@@ -15,7 +15,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
+
+
+
+
 
 .teamDescription{
     background-color: aqua;
@@ -24,8 +29,8 @@ header{
 }
 
 .profilePic{
-    width: 400px;
-    max-height: 400px;
+    width: 50%;
+    max-height: 50%;
     object-fit: cover;
     border-radius: 100%;
     border: 1px solid black;
@@ -40,20 +45,39 @@ header{
     margin: 20px;
 }
 
+.member{
+    background-color: pink;
+}
+
+
 .memberDescription{
-    width: 400px;
-    text-align: justify;
+    width: 50%;
+    text-align: center;
     margin-top: 10px;
 }
 
 .logo{
     width: 30px;
+    margin: 10px;
 }
 
 footer{
-    position: fixed;
+    
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: blueviolet;
+    background-color: blueviolet; 
+
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link{
+    display: flex; 
+    align-items: center;
+
+
 }

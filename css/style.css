@@ -22,9 +22,13 @@ html {
     background-attachment: fixed;
   }
 
-/* body{
-    background-color: #1B263B;
-} */
+  
+/*
+body{
+    background-color:#1B263B
+}
+*/
+
 
 main{
     min-height: 90vh;
@@ -101,6 +105,14 @@ h2{
     margin: 10px;
 }
 
+.logoF{
+    width: 30px;
+}
+
+.socialMedia{
+    color: white;
+}
+
 footer{
     left: 0;
     bottom: 0;
@@ -108,7 +120,17 @@ footer{
     background-color: #0D1B2A; 
 }
 
-.socialMedia{
+
+ul{
+    margin-left: 20px;
+}
+
+
+.legalStuff{
+    color: white;
+}
+
+.teamFooter{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;

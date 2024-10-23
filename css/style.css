@@ -23,16 +23,16 @@ html {
   }
 
   
-/*
+
 body{
-    background-color:#1B263B
+    /* background-color:#1B263B */
+    display: flex;
+    flex-direction: column;
 }
-*/
 
 
-main{
-    min-height: 90vh;
-}
+
+
 
 header{
     background-color: #0D1B2A;
@@ -74,24 +74,32 @@ h2{
 .teamMembers{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     text-align: center;
     margin: 20px;    
 }
 
 .member{
+    margin: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #0D1B2A;
-    min-width: 300px;
-    max-width: 400px;
+/*     min-width: 300px;
+    max-width: 400px; */
+    width: 500px;
     height: 700px;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.85);
     border: solid #778DA9 2px;
     color: #E0E1DD;
+    transition: transform 0.2s, box-shadow .2s;
 }
 
+.member:hover{
+    transform: scale(1.1);
+    box-shadow: 15px 20px 10px rgb(0, 0, 0, 0.5);
+}
 
 .memberDescription{
     text-align: justify;
@@ -105,12 +113,9 @@ h2{
     margin: 10px;
 }
 
-.logoF{
-    width: 30px;
-}
-
-.socialMedia{
-    color: white;
+.socialMedia, .legalStuff, .ourTeam{
+    text-align: center;
+    min-height: 170px;
 }
 
 footer{
@@ -118,40 +123,32 @@ footer{
     bottom: 0;
     width: 100%;
     background-color: #0D1B2A; 
-}
-
-
-ul{
-    margin-left: 20px;
-}
-
-
-.legalStuff{
+    display: flex;
+    justify-content: center;
     color: white;
 }
 
-.teamFooter{
+.footerBox{
+    width: 100%;
+    background-color: #1B263B;
+    margin: 40px;
+    border-radius: 15px;
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    align-items: center;
+    padding: 20px;
 }
 
 .link{
     display: flex; 
     align-items: center;
-
-
 }
 
-/* @media(max-width:1000px) {
-    .member{
-        width: 70%;
-    }
-} */
 
 .logoAA{
-    width: 40px;
+    width: 60px;
     margin-right: 20px;
+    border-radius: 2px;
 }
 
 .row2{
@@ -162,4 +159,9 @@ ul{
 a{
     color: #E0E1DD;
     text-decoration: none;
+}
+
+.footerTitles{
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
 }

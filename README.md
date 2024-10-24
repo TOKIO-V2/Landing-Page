@@ -12,7 +12,10 @@ This project does not have any type of installation, you just have to download t
 >You can use any browser but i advice you use chrome browser.
 
 #### Documentation
-We have used HTML and CSS languages ​​to make the project.
+We have used different pages that have helped us in the creation of the project. I leave the links below:
+- Google Fonts: https://fonts.google.com/ (Found the fonts for the proyect)
+- Stack Overflow: https://stackoverflow.com/ (Resolve doubts about languages)
+- Coolors: https://coolors.co/palettes/trending (Found a palette for the proyect)
 
 ##### License
 

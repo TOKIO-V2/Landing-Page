@@ -16,6 +16,7 @@ We have used different pages that have helped us in the creation of the project.
 - Google Fonts: https://fonts.google.com/ (Found the fonts for the proyect)
 - Stack Overflow: https://stackoverflow.com/ (Resolve doubts about languages)
 - Coolors: https://coolors.co/palettes/trending (Found a palette for the proyect)
+- Neumorphism: https://neumorphism.io/#e0e0e0 (Shadows design)
 
 ##### License
 
